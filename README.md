@@ -1,5 +1,7 @@
 This plugin is meant to help you override the number and date formatting defaults in [AmCharts 3](https://www.amcharts.com/).
 
+* [AmCharts information about formatting dates](http://www.amcharts.com/kbase/formatting-dates/)
+
 ## Usage
 
 Import the plugin file from `/public/scripts/plugin/culture.js`. Add the file reference to your project after AmCharts files:
