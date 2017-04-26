@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AmCharts3 Culture Plugin</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" />
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" />
+
+    <style>
+    #charts .column {
+        height: 400px;
+    }
+    </style>
+
+</head>
+<body>
+
+    <div class="ui fluid container">
+        <div class="ui celled grid" id="charts">
+            <div class="row">
+                <div class="six wide column" id="chart-1"></div>
+                <div class="six wide column" id="chart-2"></div>
+                <div class="six wide column" id="chart-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/lang/pt.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/lang/pt.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+    <script src="scripts/plugin/cultures.js"></script>
+    <script src="scripts/plugin/culture/pt-BR.js"></script>
+    <script src="scripts/chart-1.js"></script>
+
+</body>
+</html>
