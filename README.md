@@ -6,11 +6,13 @@ This plugin is meant to help you override the number and date formatting default
 
 Import the plugin file from `/public/scripts/plugin/culture.js`. Add the file reference to your project after AmCharts files:
 
-```
+```html
 <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+// This is important for month and day names
 <script src="https://www.amcharts.com/lib/3/lang/pt.js"></script>
 <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+// Don't forget the export language file
 <script src="https://www.amcharts.com/lib/3/plugins/export/lang/pt.js"></script>
 <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 
@@ -21,7 +23,7 @@ Import the plugin file from `/public/scripts/plugin/culture.js`. Add the file re
 
 You can have multiple culture files loaded and set a culture per chart:
 
-```
+```javascript
 var chart = AmCharts.makeChart("chart-1", {
     "language": "pt",
     "culture": "pt-BR",
